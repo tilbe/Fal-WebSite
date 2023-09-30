@@ -4,7 +4,10 @@
 
 
 <h1>Pages</h1>
-![5](https://github.com/tilbe/Fal-WebSite/assets/125744380/a2ed3666-765c-45d7-9dbe-cc8c11c278e5)
+
+
+![5](https://github.com/tilbe/Fal-WebSite/assets/125744380/82d677ec-7a91-454f-bd2f-608cae57e50d)
+
 
 ![4](https://github.com/tilbe/Fal-WebSite/assets/125744380/c145be7e-f5af-4687-b855-fbc4ee76b22f)
 
