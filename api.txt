@@ -1,0 +1,11 @@
+[
+  { "price": 10, "god": "Zeus", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 20, "god": "Poseidon", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 30, "god": "Hades", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 40, "god": "Athena", "img" :"img/temperance-6016917_1280.jpg"},
+  { "price": 50, "god": "Apollo", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 60, "god": "Artemis", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 70, "god": "Aphrodite", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 80, "god": "Hermes", "img" :"img/temperance-6016917_1280.jpg" },
+  { "price": 90, "god": "Demeter", "img" :"img/tarot4.webp"}
+]

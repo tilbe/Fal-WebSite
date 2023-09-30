@@ -1,0 +1,12 @@
+
+[
+  { "price": 10, "god": "Zeus" },
+  { "price": 20, "god": "Poseidon" },
+  { "price": 30, "god": "Hades" },
+  { "price": 40, "god": "Athena" },
+  { "price": 50, "god": "Apollo" },
+  { "price": 60, "god": "Artemis" },
+  { "price": 70, "god": "Aphrodite" },
+  { "price": 80, "god": "Hermes" },
+  { "price": 90, "god": "Demeter" }
+]

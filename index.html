@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="homepage">
+
+        <div class="firstpage">
+            <div class="header">
+                <video id="background-video" autoplay loop muted
+                    src="img/1 Hour Endless White Particles Black Background 4k (No Sound _ No Loops) ytvideoindirici_com_.mp4"></video>
+
+                <div class="logo">
+                    <img src="img/magic-ball.png" class="logoImage">
+                    <h1>Fortunas</h1>
+                </div>
+                <div class="menu">
+                    <a class="lines"><i class="fa-solid fa-grip-lines"></i></a>
+
+                </div>
+                <div class="menuOpen">
+                    <ul>
+                        <li><a class="blogBtn">Blog</a></li>
+                        <li><a class="tarotBtn">Tarot Cart</a></li>
+                        <li><a class="commant">Commant</a></li>
+                    </ul>
+                </div>
+
+                <div class="title">
+                    <h1>Your Journey </h1>
+                    <h3>"Dream Interpretation and Divination: Journey of the Subconscious"</h3>
+                    <div class="button">
+                        <button>SING UP</button>
+                    </div>
+                </div>
+
+                <div class="singUp">
+                    <div class="singPage">
+                        <div class="close">
+                            <a><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+                        <div class="info">
+                            <h1>SING UP</h1>
+                            <input type="text" placeholder="User Name">
+                            <input type="password" placeholder="Password">
+                            <button>Enter</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--firtPage end-->
+
+
+        <div class="secondPage">
+            <div class="seconHeader">
+                <div class="title">
+                    <h4>FREE CREDIT</h4>
+                    <h1>Daily Fortune </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, consequuntur.</p>
+                </div>
+                <div class="cart">
+                    <img src="img/tarot1.jpeg" class="tarotImg">
+
+                    <button class="startBtn">Start</button>
+                </div>
+
+                <div class="fortuneCart">
+                    <div class="start">
+                        <div class="startPage">
+                            <div class="startclose">
+                                <a><i class="fa-solid fa-xmark"></i></a>
+                            </div>
+                            <div class="fortuneInfo">
+                                <h1>Your Foetune</h1>
+                                <input type="number" placeholder="Your Year Of Birth">
+                                <input type="text" placeholder="Your Month Of Birth">
+                                <input type="text" placeholder="What Is Your Birth Time">
+                                <button class="sendBtn">Send</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--secondPage end-->
+
+
+        <div class="thirdPage">
+            <div class="thirdHeader">
+                <div class="thirdTitle">
+                    <h4>Give time and name</h4>
+                    <h1>Could you provide detailed answers to your questions</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+
+                <div class="thirdCart">
+                    <img src="img/question.png">
+                </div>
+            </div>
+        </div>
+
+        <!--thirdPage end-->
+
+        <div class="lastPage">
+
+            <div class="lastTitle">
+                <h4>LEARN MORE</h4>
+                <h1>Frequently Asked Questions</h1>
+                <p>There may still be questions waiting to be answered. You will not find the most curious ones here.
+                </p>
+            </div>
+            <div class="box">
+                <div class="titleInfo">
+                    <div class="info">
+                        <h2> What is Marical ?</h2>
+                        <a class="plusBtn" onclick="toggleMetin(1)"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="metin" id="mentin1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati consequuntur vero
+                            delectus
+                            provident soluta eos, et mollitia iste officia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="titleInfo">
+                    <div class="info">
+                        <h2> What is Marical ?</h2>
+                        <a class="plusBtn" onclick="toggleMetin(2)"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="metin" id="metin2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati consequuntur vero
+                            delectus
+                            provident soluta eos, et mollitia iste officia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="titleInfo">
+                    <div class="info">
+                        <h2> What is Marical ?</h2>
+                        <a class="plusBtn" onclick="toggleMetin(1)"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="metin" id="metin3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati consequuntur vero
+                            delectus
+                            provident soluta eos, et mollitia iste officia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--lastPage end-->
+
+    </div>
+
+    <div class="blogPage">
+        <h1 class="blogTitle">BLOG</h1>
+        <div class="page">
+            <a class="back"><i class="fa-solid fa-arrow-left"></i></a>
+            <div class="allblogs">
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="intro">
+                        <img src="img/tarot2.jpeg">
+                        <h1>Horoscope</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum possimus ipsum quo iusto
+                            cupiditate laudantium, libero repellendus blanditiis sequi quis.</p>
+                        <button class="moreBtn">More Read</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search">
+                <div class="searchBtn">
+                    <input type="text" placeholder="Search">
+                    <a class="btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="Latestarticles">
+                    <h1>Latest Articles</h1>
+                    <a class="laters">
+                        <h4>HİGH-END FURNİSHİNGS BRAND NAMES FOR 2023 WORTH SPENDİNG CASH</h4>
+                    </a>
+                    <hr>
+                    <a class="laters">
+                        <h4>7 SORTS OF COMPUTER REPAİR SERVİCE SOLUTİONS BY QUİKFİXTECHNOLOGİES</h4>
+                    </a>
+                    <hr>
+
+                    <a class="laters">
+                        <h4>HİGH-END FURNİSHİNGS BRAND NAMES FOR 2023 WORTH SPENDİNG CASH</h4>
+                    </a>
+                    <hr>
+                    <a class="laters">
+                        <h4>7 SORTS OF COMPUTER REPAİR SERVİCE SOLUTİONS BY QUİKFİXTECHNOLOGİES</h4>
+                    </a>
+                    <hr>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--blogPage end-->
+
+    <!--tarotShopin start-->
+
+    <div class="pagetar">
+        <div class="shopping">
+
+            <h1>TAROT CARTS</h1>
+            <div class="tarotHeader">
+                <a class="shoppingBack"><i class="fa-solid fa-arrow-left"></i></a>
+                <h2>Your Tarot Cart</h3>
+                    <div class="shoppingBag">
+                        <a class="bag"><i class="fa-solid fa-basket-shopping"></i></a>
+                        <p class="cartNumber">0</p>
+                    </div>
+            </div>
+        </div>
+        <div class="taraotPage">
+            <!-- urunlerin buraya yukleniyor-->
+
+        </div>
+
+        <div class="bagPage">
+            <div class="pagetarot">
+                <div class="bagTop">
+                    <h3>Your Cart</h3>
+                    <a class="BagcloseBtn"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <hr>
+                <!-- Burada ürünlerin listeleneceği bir bölüm olacak -->
+            </div>
+            <div class="tatalbag">
+                <h4>TOTAL</h4>
+
+                <div class="total">
+
+
+                </div>
+            </div>
+
+            <button class="payButton">Pay</button>
+
+        </div>
+
+    </div>
+    <!--tarotShoping end-->
+
+    <!--payment page start-->
+    <div class="cartpage">
+        <h1 class="titleCartpage"> Payment Page</h1>
+        <div class="cartback">
+            <a><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+        <hr>
+        <div class="prodactt">
+            <div class="pay">
+                <h3>Your Order</h3>
+                <!--js urunlerin cekildigi alan-->
+            </div>
+        </div>
+        <div class="Payinfo">
+            <div class="paytitle">
+                <h3>Information</h3>
+            </div>
+            <div class="infoInput">
+                <input class="name" type="text" placeholder=" Name ">
+                <input class="Email" type="email" placeholder="Email">
+                <input class="adres" type="text" placeholder="Address">
+                <input class="number" type="number" placeholder="Number">
+
+            </div>
+        </div>
+        <div class="payment">
+
+            <form class="front" onsubmit="return validateForm()">
+                <div class="kart">
+                    <div class="cart-number">
+                        <input type="text" placeholder="Card Number" pattern="\d{4}(?:\s\d{4})*" maxlength="19"
+                            class="cart-info">
+                    </div>
+
+                    <div class="date">
+                        <input type="text" placeholder="Ad Soyad" class="name">
+                        <input type="text" placeholder="MM / YY" pattern="\d{2}\/\d{2}" maxlength="5" class="cart-date">
+                    </div>
+                </div>
+            </form>
+
+            <div class="bottomCart">
+
+                <div class="continuation">
+                    <a class="continuationBtn"> <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="pay">
+                    <button>Continuation</button>
+                </div>
+                <div class="backBtn">
+                    <a><i class="fa-solid fa-arrow-left"></i> </a>
+                </div>
+            </div>
+
+
+            <div class="backk">
+                <div class="backPage">
+                    <div class="blacLine"></div>
+                </div>
+                <div class="whitline"></div>
+                <div class="cvv">
+                    <input type="number" class="cvv" placeholder="CVV" pattern="\d{3}" maxlength="3">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--payment page end-->
+
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

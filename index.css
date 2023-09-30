@@ -1,0 +1,1157 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Teko:wght@300&display=swap');
+
+ body {
+     padding: 0;
+     margin: 0;
+     font-family: 'Teko', sans-serif;
+     overflow-x: hidden;
+
+
+ }
+
+ .homepage {
+     display: block;
+ }
+
+
+ .firstpage {
+     position: relative;
+     width: 100%;
+     height: 800px;
+ }
+
+
+ .firstpage .header #background-video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+
+
+
+ .firstpage .header .logo {
+     position: absolute;
+     top: 10%;
+     left: 10%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     color: #ffffff;
+     font-size: 24px;
+     font-weight: bold;
+     z-index: 1;
+     display: flex;
+ }
+
+ .firstpage .header .logo .logoImage {
+     height: 50px;
+     width: 50px;
+
+ }
+
+ .firstpage .header .logo h1 {
+     font-size: 20px;
+     padding: 0px 8px;
+     letter-spacing: 2px;
+ }
+
+ .firstpage .header .menu a {
+     color: #ffffff;
+     font-size: 20px;
+     position: absolute;
+     top: 7.5%;
+     left: 95%;
+ }
+
+ .firstpage .header .menu a:hover {
+     color: #F2BE22;
+     cursor: pointer;
+ }
+
+
+ .firstpage .header .menuOpen {
+     position: absolute;
+     top: 9%;
+     left: 70%;
+     width: 450px;
+     display: none;
+
+
+ }
+
+ .firstpage .header .menuOpen ul li {
+     list-style: none;
+     text-decoration: none;
+     display: inline-block;
+     padding: 8px;
+     font-size: 22px;
+ }
+
+ .firstpage .header .menuOpen ul li a {
+     text-decoration: none;
+     color: #ffffff;
+ }
+
+ .firstpage .header .menuOpen ul li a:hover {
+     color: #F2BE22;
+     cursor: pointer;
+ }
+
+ .firstpage .header .title {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ .firstpage .header .title h1 {
+     color: #ffffff;
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     font-size: 60px;
+   
+ }
+
+ .firstpage .header .title h3 {
+     color: #ffffff;
+     text-align: center;
+     font-size: 25px;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .firstpage .header .title .button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 16px;
+
+ }
+
+ .firstpage .header .title .button button {
+     padding: 16px;
+     border-radius: 24px;
+     border: none;
+     outline: none;
+
+     background-color: #F2BE22;
+ }
+
+ .firstpage .header .title .button button:hover {
+     cursor: pointer;
+     background-color: #ffffff;
+     color: #F2BE22;
+
+ }
+
+ .firstpage .header .singUp {
+     width: 400px;
+     height: 400px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #ffffff;
+     border-radius: 40px;
+     display: none;
+
+
+ }
+
+ .firstpage .header .singUp .singPage {
+     display: flex;
+     flex-direction: column;
+     margin-top: 150px;
+     position: absolute;
+     top: 5%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 50%;
+     padding: 0px;
+ }
+
+
+ .firstpage .header .singUp .singPage .close {
+     position: absolute;
+     top: -10%;
+     left: 130%;
+     transform: translate(-50%, -50%);
+ }
+
+ .firstpage .header .singUp .singPage .close:hover {
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+ .firstpage .header .singUp .singPage h1 {
+     text-align: center;
+ }
+
+ .firstpage .header .singUp .singPage input {
+     padding: 8px;
+     margin: 8px;
+     background-color: #ffffff;
+     width: 100%;
+     border: 1px solid black;
+     outline: none;
+     border-radius: 20px;
+ }
+
+ .firstpage .header .singUp .singPage button {
+     width: 100%;
+     margin-left: 19px;
+     padding: 8px;
+     border: 1px solid transparent;
+     background-color: #F2BE22;
+     color: #ffffff;
+     border-radius: 20px;
+     margin-left: 11px;
+
+ }
+
+ .firstpage .header .singUp .singPage button:hover {
+     background-color: black;
+     cursor: pointer;
+ }
+
+ .secondPage {
+     width: 100%;
+     height: 800px;
+     background-color: black;
+     position: relative;
+ }
+
+ .secondPage .seconHeader .title {
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+ }
+
+ .secondPage .seconHeader .title h4 {
+     margin: 0px;
+     letter-spacing: 2px;
+     color: #F2BE22;
+     padding: 0px;
+     margin: 0px;
+ }
+
+ .secondPage .seconHeader .title h1,
+ p {
+     letter-spacing: 2px;
+     padding: 0px;
+     margin: 0px;
+ }
+
+
+
+ .secondPage .seconHeader .tarotImg {
+     position: absolute;
+     top: 50%;
+     left: 70%;
+     transform: translate(-50%, -50%);
+     width: 380px;
+
+ }
+
+ .secondPage .seconHeader .cart p {
+     color: #ffffff;
+     position: absolute;
+     top: 50%;
+     left: 70%;
+     transform: translate(-50%, -50%);
+     width: 190px;
+     background-color: rgba(0, 0, 0, 0.5);
+
+ }
+
+ .secondPage .seconHeader .cart .startBtn {
+     color: #ffffff;
+     background-color: #F2BE22;
+     width: 78px;
+     position: absolute;
+     top: 60%;
+     left: 17%;
+     transform: translate(-50%, -50%);
+     border: none;
+     outline: none;
+     padding: 16px;
+     border-radius: 24px;
+
+ }
+
+ .secondPage .seconHeader .cart .startBtn:hover {
+     color: #F2BE22;
+     background-color: #ffffff;
+ }
+
+
+ .secondPage .seconHeader .fortuneCart {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #ffffff;
+     border-radius: 20px;
+     display: none;
+
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage {
+     padding: 8px;
+
+ }
+
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .startclose {
+     display: flex;
+     align-items: end;
+     justify-content: end;
+     padding: 8px;
+
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .startclose:hover {
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .fortuneInfo {
+     display: flex;
+     flex-direction: column;
+     padding: 16px;
+
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .fortuneInfo h1 {
+     text-align: center;
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .fortuneInfo input {
+     padding: 8px;
+     margin: 8px;
+     width: 350px;
+     border-radius: 20px;
+     border: 1px solid black;
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .fortuneInfo button {
+     padding: 8px;
+     margin: 8px;
+     border-radius: 20px;
+     border: 1px solid transparent;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #F2BE22;
+     color: #ffffff;
+ }
+
+ .secondPage .seconHeader .fortuneCart .start .startPage .fortuneInfo button:hover {
+     cursor: pointer;
+     background-color: black;
+
+ }
+
+
+ .thirdPage {
+     width: 100%;
+     height: 800px;
+     background-color: black;
+     position: relative;
+ }
+
+ .thirdPage .thirdHeader .thirdTitle {
+     position: absolute;
+     top: 50%;
+     left: 75%;
+     transform: translate(-50%, -50%);
+     color: #ffffff;
+
+ }
+
+ .thirdPage .thirdHeader .thirdTitle h4 {
+     color: #F2BE22;
+     margin: 0px;
+     letter-spacing: 2px;
+ }
+
+ .thirdPage .thirdHeader .thirdTitle h1 {
+     margin: 0px;
+     letter-spacing: 1px;
+ }
+
+
+ .thirdPage .thirdHeader .thirdCart img {
+     width: 800px;
+     height: 800px;
+
+ }
+
+ .lastPage {
+     width: 100%;
+     height: 600px;
+     background-color: black;
+     padding-top: 200px;
+ }
+
+
+
+ .lastPage .lastTitle {
+
+     text-align: center;
+     color: #ffffff
+ }
+
+
+ .lastPage .lastTitle h4 {
+     color: #F2BE22;
+     margin: 0px;
+
+ }
+
+ .lastPage .lastTitle h1 {
+     margin: 0px;
+     letter-spacing: 2px;
+
+ }
+
+ .lastPage .titleInfo .info {
+     color: #ffffff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 500px;
+     border-bottom: 1px solid rgb(255, 255, 255);
+     margin: 0px auto;
+
+ }
+
+
+
+ .lastPage .titleInfo .info .plusBtn:hover {
+
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+ .lastPage .titleInfo .info h2 {
+     letter-spacing: 2px;
+ }
+
+ .lastPage .titleInfo .metin {
+     color: #ffffff;
+     margin: 0 auto;
+     width: 500px;
+     margin-top: 10px;
+     display: none;
+
+
+ }
+
+ .lastPage .titleInfo .metin p {
+     text-align: center;
+
+ }
+
+
+
+
+
+ .blogPage {
+     height: 120%;
+     grid-gap: 10px;
+     padding: 46px;
+     background-color: #fff;
+     display: none;
+
+ }
+
+ .blogTitle {
+     text-align: center;
+     letter-spacing: 2px;
+     color: black;
+
+ }
+
+ .blogPage .page {
+     display: flex;
+     position: relative;
+ }
+
+ .blogPage .allblogs {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .blogPage .blogs {
+     padding: 24px;
+     width: 400px;
+
+ }
+
+ .blogPage .blogs .intro {
+     padding: 26px;
+     background: linear-gradient(to right, #4a004e, #001828); /* İki renkli geçiş */
+     color: rgb(252, 252, 252);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     border-radius: 18px;
+ }
+
+ .blogPage .blogs .intro img {
+     width: 350px;
+     height: 350px;
+     margin-left: 10px;
+
+
+ }
+
+ .blogPage .blogs .intro h1 {
+     text-align: center;
+     color: #F2BE22;
+ }
+
+ .blogPage .blogs .intro p {
+     text-align: center;
+ }
+
+ .blogPage .page .allblogs .blogs .intro .moreBtn {
+     padding: 10px;
+     margin: 10px;
+     border: none;
+     border-radius: 10px;
+     background-color: #F2BE22;
+     color: #fff;
+
+
+ }
+
+ .search {
+     margin-top: 24px;
+     position: absolute;
+     left: 70%;
+     top: 4%;
+ }
+
+ .search .searchBtn {
+     background-color: #fff;
+     padding: 16px;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .search .searchBtn input {
+     width: 100%;
+     padding: 8px;
+     margin: 2px 0px;
+     border: 1px solid;
+     border-radius: 3px;
+   
+     outline: none;
+ }
+
+ .search .searchBtn a {
+     padding: 5px 10px;
+     margin: 0px 3px;
+     background-color: #F2BE22;
+     border-radius: 3px;
+ }
+
+ .search .searchBtn a:hover {
+     cursor: pointer;
+     background-color: black;
+     color: #F2BE22;
+ }
+
+ .blogPage .Latestarticles {
+    
+     color: black;
+     margin-top: -10px;
+     padding: 6px;
+
+
+ }
+
+ .blogPage .Latestarticles h1 {
+     text-align: center;
+     letter-spacing: 1px;
+     position: absolute;
+     top: -25%;
+     left: 30%;
+ }
+
+
+
+ .blogPage .Latestarticles .laters:hover {
+     cursor: pointer;
+     color: grey;
+ }
+
+ .blogPage .back {
+     margin-bottom: 24px;
+ }
+
+
+ .blogPage .back:hover {
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+ .taraotPage {
+     padding: 48px;
+     background-color: #ffff;
+
+ }
+
+
+ .pagetar {
+     background-color: #ffff;
+     position: relative;
+     display: none;
+
+
+ }
+
+
+ .shopping {
+     border-bottom: 1px solid black;
+ }
+
+ .shopping h1 {
+     text-align: center;
+     letter-spacing: 2px;
+     margin: 0px;
+     padding:10px 50px;
+ }
+
+ .shopping .tarotHeader {
+padding: 0;
+margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+
+ .shopping .tarotHeader .shoppingBag {
+     position: relative;
+ }
+
+ .shopping .tarotHeader .shoppingBag a:hover {
+     color: #F2BE22;
+     cursor: pointer;
+ }
+
+
+ .shopping .tarotHeader .shoppingBag p {
+     position: absolute;
+     top: -20px;
+     right: -24px;
+     background-color: #F2BE22;
+     height: 25px;
+     width: 25px;
+     text-align: center;
+     border-radius: 20px;
+ }
+
+ .taraotPage {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 20px;
+     padding-right: 40px;
+
+ }
+
+ .taraotPage .cart {
+     display: inline-block;
+     width: calc(33.33% - 20px);
+     margin-bottom: 20px;
+
+ }
+
+
+
+ .cartInfo {
+     background-color: #3a4df91e;
+     width: 350px;
+     margin-top: 16px;
+     border-radius: 20px;
+ }
+
+ .cartInfo .top {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .cartInfo .top img {
+     width: 300px;
+     margin-left: 30px;
+
+ }
+
+ .cartInfo .top h3 {
+     padding: 0px;
+     margin: 10px;
+     letter-spacing: 2px;
+
+ }
+
+ .cartInfo .bottom {
+     display: flex;
+     justify-content: space-around;
+     padding: 5px;
+     padding: 20px;
+
+
+ }
+
+ .cartInfo .bottom a:hover {
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+
+
+
+
+
+
+ .taraotPage .cart {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+
+
+ .pagetar .bagPage {
+     position: absolute;
+     top: 141px;
+     right: 200px;
+     background-color: #fff;
+     padding: 30px;
+     display: none;
+ }
+
+
+
+ .pagetar .shopping .tarotHeader .shoppingBack:hover {
+     cursor: pointer;
+     color: #F2BE22;
+ }
+
+
+ .pagetar .bagPage .product {
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: relative;
+     
+
+ }
+
+ .pagetar .bagPage .tatalbag {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .pagetar .bagPage .product .productbag {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .pagetar .bagPage .product .cartButton {
+     display: flex;
+     justify-content: space-between;
+     width: 90px;
+     font-size: 10px;
+     align-items: center;
+
+ }
+
+ .pagetar .bagPage .product .cartButton a:hover {
+     color: #F2BE22;
+     cursor: pointer;
+ }
+
+ .bagPage .payButton {
+     width: 300px;
+     border: none;
+     outline: none;
+     background-color: #F2BE22;
+     color: black;
+     padding: 6px;
+     margin: 6px;
+     border-radius: 20px;
+ }
+
+ .bagPage .payButton:hover {
+     cursor: pointer;
+     color: #F9F5EB;
+     background-color: black;
+ }
+
+
+ .bagPage .bagTop {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .bagPage .bagTop a:hover {
+     cursor: pointer;
+     color: #F2BE22;
+
+ }
+
+
+
+ .cartpage {
+     display: none;
+
+ }
+
+ .cartpage .cartback i {
+     padding: 0px 160px;
+
+ }
+
+ .cartpage .cartback i:hover {
+     color: #F2BE22;
+     cursor: pointer;
+ }
+
+ .cartpage h3 {
+     text-align: center;
+ }
+
+ .cartpage .titleCartpage {
+     text-align: center;
+letter-spacing: 2px;
+     padding-top:10px 50px;
+ }
+
+ .cartpage .prodactt {
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     border: 1px solid black ;
+     top: 20%;
+     padding: 2% 0px;
+     margin: 20px 50px;
+
+
+ }
+
+ .cartpage .productbag {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ .cartpage .productbag .productinfo {
+     display: flex;
+     justify-content: space-between;
+     width: 360px;
+
+ }
+
+ .prodactt .totalpay {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     border-top: 1px solid black;
+
+
+ }
+
+ .cartpage .payment {
+     position: absolute;
+     top: 50%;
+     left: 75%;
+     transform: translate(-50%, -50%);
+   
+ }
+
+ .h2payment {
+     position: absolute;
+     top: 26%;
+     left: 75%;
+     transform: translate(-50%, -50%);
+ }
+
+ .kart {
+     height: 300px;
+     width: 500px;
+     color: #fff;
+     background: linear-gradient(to right, #4a004e, #001828); /* İki renkli geçiş */
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: block;
+ }
+
+ .cartpage .payment .bottomCart {
+     position: relative;
+
+
+ }
+
+ .cartpage .payment .bottomCart .continuation {
+     position: absolute;
+     top: 174px;
+     left: 185px;
+
+
+ }
+
+ .cartpage .payment .bottomCart .pay {
+     position: absolute;
+     top: 174px;
+     left: -40px;
+ }
+
+ .continuation:hover {
+     color: rgb(164, 47, 47);
+     cursor: pointer;
+     border-bottom: 1px solid rgb(164, 47, 47);
+ }
+
+ .backBtn {
+     position: absolute;
+     top: 174px;
+     left: -185px;
+ }
+
+ .backBtn:hover {
+     color: rgb(164, 47, 47);
+     cursor: pointer;
+     border-bottom: 1px solid rgb(164, 47, 47);
+ }
+
+ .kart .title {
+     margin-left: 300px;
+     color: #fff;
+     font-size: large;
+
+
+
+ }
+
+
+ .kart input {
+     display: inline-flex;
+     align-items: flex-end;
+     justify-content: space-between;
+     color: #ffffff;
+ }
+
+
+ .kart .cart-number input {
+     color: #ffffff;
+     background-color: transparent;
+     border: none;
+     outline: none;
+     text-align: start;
+     margin-right: 300px;
+     appearance: none;
+     font-size: 15px;
+     margin-top: 120px;
+
+
+
+
+ }
+
+ .kart input {
+     background-color: transparent;
+     border: none;
+     display: inline-flex;
+     margin: 0px 50px;
+     margin-top: 100px;
+     outline: none;
+
+ }
+
+ .kart img {
+     width: 25px;
+     height: 30px;
+     position: absolute;
+     top: 15%;
+     left: 92%;
+     transform: translate(-50%, -50%);
+ }
+
+
+
+
+ .payment .backk {
+     display: none;
+ }
+
+ .payment .backk .backPage {
+     height: 300px;
+     width: 500px;
+     background: linear-gradient(to right, #4a004e, #001828); /* İki renkli geçiş */
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ .payment .backPage .blacLine {
+     width: 100%;
+     background-color: black;
+     height: 40px;
+     margin-bottom: 130px;
+ }
+
+ .payment .backk .cvv {
+     display: flex;
+     position: absolute;
+     top: 50%;
+     left: 65%;
+     transform: translate(-50%, -50%);
+     background-color: transparent;
+     border: none;
+     outline: none;
+     appearance: none;
+
+ }
+
+ .payment .backk .whitline {
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     transform: translate(-50%, -50%);
+     width: 290px;
+     height: 40px;
+     background-color: #ffffff;
+
+ }
+
+ .payment .bottomCart button {
+     background-color: #000000;
+     color: #fff;
+     padding: 8px;
+     border: none;
+     outline: none;
+     border-radius: 8px;
+
+ }
+
+ .payment .bottomCart button:hover {
+     cursor: pointer;
+     color: #000000;
+     background-color: #F2BE22;
+ }
+
+ .cartpage .Payinfo {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     width: 34%;
+     padding: 10% 0px;
+     margin: 0px 50px;
+     border: none;
+     border: 1px solid black;
+ }
+
+ .cartpage .Payinfo h3 {
+     position: absolute;
+     left: 45%;
+     top: 10%;
+ }
+
+
+ .cartpage .Payinfo .infoInput {
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     padding: 10px 0px;
+     margin: 10px 0px;
+     border: none;
+     position: absolute;
+     left: 10%;
+     top: 10.5%;
+
+
+ }
+
+ .Payinfo .infoInput input {
+     width: 80%;
+     padding: 4px;
+     border: none;
+     margin: 14px 0px;
+     border-bottom: 1px solid black;
+     outline: none;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 768px) {
+     .firstpage .header .title h1 {
+         font-size: 40px;
+     }
+
+     .firstpage .header .title h3 {
+         font-size: 20px;
+     }
+
+     /* Diğer stil düzenlemeleri buraya ekleyebilirsiniz */
+ }
+
+ /* Mobil boyutları için stil düzenlemeleri */
+ @media (max-width: 480px) {
+     .firstpage .header .title h1 {
+         font-size: 30px;
+     }
+
+     .firstpage .header .title h3 {
+         font-size: 16px;
+     }
+
+     /* Diğer stil düzenlemeleri buraya ekleyebilirsiniz */
+ }
